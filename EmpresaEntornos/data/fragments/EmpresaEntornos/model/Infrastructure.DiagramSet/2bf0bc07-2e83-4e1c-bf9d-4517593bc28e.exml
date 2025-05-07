@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EmpresaEntornos" version="4">
+  <OBJECT>
+    <ID name="EmpresaEntornos" mc="Infrastructure.DiagramSet" uid="2bf0bc07-2e83-4e1c-bf9d-4517593bc28e"/>
+    <PID name="EmpresaEntornos" mc="Standard.Project" uid="68e10183-7a58-4caf-b250-ae8721653db1"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[EmpresaEntornos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

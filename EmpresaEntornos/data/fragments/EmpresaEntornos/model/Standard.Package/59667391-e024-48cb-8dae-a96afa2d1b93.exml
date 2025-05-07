@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Produccion y diseño" version="4">
+  <OBJECT>
+    <ID name="Produccion y diseño" mc="Standard.Package" uid="59667391-e024-48cb-8dae-a96afa2d1b93"/>
+    <PID name="EmpresaEntornos" mc="Standard.Project" uid="68e10183-7a58-4caf-b250-ae8721653db1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Produccion y diseño]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Diseño" mc="Standard.Actor" uid="100985b2-56ed-435b-906b-1335a93b9a77"/>
+        <COMPID name="Produccion" mc="Standard.Actor" uid="54450c30-25eb-431d-8230-10d4ff50e86c"/>
+        <COMPID name="Pintura" mc="Standard.Actor" uid="3dca1734-4728-49a8-9340-e66743adca19"/>
+        <COMPID name="Terminar tarea" mc="Standard.UseCase" uid="a6dd7a91-faa4-4e48-ad50-04e4173b0d95"/>
+        <COMPID name="Agregar tarea" mc="Standard.UseCase" uid="c766344c-f6dc-45e6-ab41-984fc2a92670"/>
+        <COMPID name="Solicitar tarea" mc="Standard.UseCase" uid="b6426eac-4d3d-4e24-a633-65adc26bfe4f"/>
+        <COMPID name="Cancelar tarea" mc="Standard.UseCase" uid="0c44ea0d-bf06-419f-b94c-1e2a34a274ee"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Produccion y diseño" mc="Standard.UseCaseDiagram" uid="06cc6b92-5607-47a1-95e5-b5f08fae2e9f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
