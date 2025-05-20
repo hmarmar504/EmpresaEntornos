@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Tienda" version="4">
+  <OBJECT>
+    <ID name="Tienda" mc="Standard.Package" uid="c4cf66ab-69ac-4159-8238-597052393231"/>
+    <PID name="EmpresaEntornos" mc="Standard.Project" uid="68e10183-7a58-4caf-b250-ae8721653db1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Tienda]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Tienda" mc="Standard.Actor" uid="937df543-cbca-498e-91ab-7cffd4d0969c"/>
+        <COMPID name="Gestion de clientes" mc="Standard.UseCase" uid="2d5ad069-cd54-415c-b84c-6051f4da02f8"/>
+        <COMPID name="Gesion de pedidos" mc="Standard.UseCase" uid="a290127b-c679-40f5-92d5-d7df9bc57ae4"/>
+        <COMPID name="Gestion de tienda" mc="Standard.UseCase" uid="00adf932-5c10-450f-9deb-53b7b0f57535"/>
+        <COMPID name="Añadir promocion" mc="Standard.UseCase" uid="1ad594f4-735d-475a-be19-3243760c5d17"/>
+        <COMPID name="Gestion de encargos" mc="Standard.UseCase" uid="aea699dc-44f9-4335-91d6-c8f25c8537d1"/>
+        <COMPID name="Notificar encargo" mc="Standard.UseCase" uid="67330dc8-95b3-485d-a05f-cda30966a148"/>
+        <COMPID name="Aplicar descuentos" mc="Standard.UseCase" uid="0106ca33-76dd-4059-bb26-2890cd2f2c11"/>
+        <COMPID name="Sistema" mc="Standard.Actor" uid="2ee8d3f7-2078-49fd-afa3-4cbb5aeb95e9"/>
+        <COMPID name="Notificar a clientes" mc="Standard.UseCase" uid="7926678a-d8db-432d-85ca-a882c3669ffa"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Tienda Use Case diagram" mc="Standard.UseCaseDiagram" uid="28086f3b-751a-4ea2-a42c-7239d7ca4692"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

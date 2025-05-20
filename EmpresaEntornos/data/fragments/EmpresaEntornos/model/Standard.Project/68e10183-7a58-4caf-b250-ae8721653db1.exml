@@ -12,6 +12,7 @@
       <COMP relation="Model">
         <COMPID name="Administracion" mc="Standard.Package" uid="32dc01a0-d070-489d-8e97-542089573f2e"/>
         <COMPID name="Produccion y diseño" mc="Standard.Package" uid="59667391-e024-48cb-8dae-a96afa2d1b93"/>
+        <COMPID name="Tienda" mc="Standard.Package" uid="c4cf66ab-69ac-4159-8238-597052393231"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="EmpresaEntornos" mc="Infrastructure.DiagramSet" uid="2bf0bc07-2e83-4e1c-bf9d-4517593bc28e"/>

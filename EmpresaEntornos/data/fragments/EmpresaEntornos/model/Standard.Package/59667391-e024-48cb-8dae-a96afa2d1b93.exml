@@ -21,6 +21,10 @@
         <COMPID name="Agregar tarea" mc="Standard.UseCase" uid="c766344c-f6dc-45e6-ab41-984fc2a92670"/>
         <COMPID name="Solicitar tarea" mc="Standard.UseCase" uid="b6426eac-4d3d-4e24-a633-65adc26bfe4f"/>
         <COMPID name="Cancelar tarea" mc="Standard.UseCase" uid="0c44ea0d-bf06-419f-b94c-1e2a34a274ee"/>
+        <COMPID name="Sistema" mc="Standard.Actor" uid="222a436f-1534-4512-891a-4c0b641ca6d6"/>
+        <COMPID name="Notificar tarea" mc="Standard.UseCase" uid="fd62a03d-0d7a-4f4b-9773-3bcaacbfe1d4"/>
+        <COMPID name="Alerta inventario bajo" mc="Standard.UseCase" uid="dfb40940-f638-40b2-8be9-622bb1cdf230"/>
+        <COMPID name="Solicitar material" mc="Standard.UseCase" uid="adcd2511-f4f8-49a8-b574-8f4e3a43c9da"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Produccion y diseño" mc="Standard.UseCaseDiagram" uid="06cc6b92-5607-47a1-95e5-b5f08fae2e9f"/>

@@ -1,28 +1,28 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Agregar producto" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Añadir promocion" version="4">
   <OBJECT>
-    <ID name="Agregar producto" mc="Standard.UseCase" uid="56a0d697-d649-4e2a-8a2c-1a9132eee424"/>
-    <PID name="Administracion" mc="Standard.Package" uid="32dc01a0-d070-489d-8e97-542089573f2e"/>
+    <ID name="Añadir promocion" mc="Standard.UseCase" uid="1ad594f4-735d-475a-be19-3243760c5d17"/>
+    <PID name="Tienda" mc="Standard.Package" uid="c4cf66ab-69ac-4159-8238-597052393231"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Agregar producto]]></ATT>
+      <ATT name="Name"><![CDATA[Añadir promocion]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="0c59493f-ec89-4407-b863-05834044bad8"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="27853242-ff3b-4a4e-a76a-a3c9697649a3"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Asignar categoria" mc="Standard.UseCase" uid="f8468489-5057-4a0c-a006-1d3dd45f33a4"/>
+              <ID name="Notificar a clientes" mc="Standard.UseCase" uid="7926678a-d8db-432d-85ca-a882c3669ffa"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
@@ -32,7 +32,7 @@
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="7161f5d0-cb2c-410e-a773-7d328f14e54a"/>
+          <ID name="" mc="Infrastructure.Note" uid="1b805c71-d401-4be1-ba54-fc5de7444493"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -46,7 +46,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="dbc1df5c-743b-4cc5-86d8-2997d55b7a1a"/>
+          <ID name="" mc="Infrastructure.Note" uid="5d90eaae-1ba2-4ced-b6c3-aed649f563be"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -60,7 +60,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="f9c92339-3f7e-4dc8-a642-eaa81aebd1b2"/>
+          <ID name="" mc="Infrastructure.Note" uid="9f8cb6e1-f783-4cde-a83c-9a74e2395522"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -74,7 +74,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="39535b9b-c97d-41bb-8603-bbc2cfeb35e4"/>
+          <ID name="" mc="Infrastructure.Note" uid="aabed7ce-a859-495b-b802-9f57ec14853c"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -88,7 +88,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="5a74aa40-690c-4639-ac64-08cb20709297"/>
+          <ID name="" mc="Infrastructure.Note" uid="69e3667d-673b-4093-9124-78f9425cac42"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -102,7 +102,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="1ce082b3-4a77-4bf4-a208-9bdb8c219800"/>
+          <ID name="" mc="Infrastructure.Note" uid="143cbe75-0838-43e3-923f-8dff90a7e211"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
